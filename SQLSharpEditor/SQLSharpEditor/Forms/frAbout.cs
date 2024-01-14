@@ -30,5 +30,10 @@ namespace SQLSharpEditor.Forms
                 MessageBox.Show(this, $"Erro ao abrir o link: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void lbAbout_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

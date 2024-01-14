@@ -64,7 +64,7 @@
             // 
             llabelJorgeLuisReis.AutoSize = true;
             llabelJorgeLuisReis.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            llabelJorgeLuisReis.Location = new Point(91, 154);
+            llabelJorgeLuisReis.Location = new Point(98, 199);
             llabelJorgeLuisReis.Name = "llabelJorgeLuisReis";
             llabelJorgeLuisReis.Size = new Size(76, 15);
             llabelJorgeLuisReis.TabIndex = 3;
@@ -79,7 +79,8 @@
             lbAbout.Name = "lbAbout";
             lbAbout.Size = new Size(339, 339);
             lbAbout.TabIndex = 2;
-            lbAbout.Text = "SQLSharpEditor é um projeto feito em C# .NET com o intuito de ser para fins didáticos, colocando em prática todo aprendizado e adaptação de sistemas.\r\n\r\n\r\n\r\n\r\n\r\nVersão: 1.0\r\nDesenvolvedor: Jorge Luis";
+            lbAbout.Text = resources.GetString("lbAbout.Text");
+            lbAbout.Click += lbAbout_Click;
             // 
             // frAbout
             // 

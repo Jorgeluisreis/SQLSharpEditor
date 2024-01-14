@@ -10,7 +10,7 @@ namespace SQLSharpEditor
         [STAThread]
         static void Main()
         {
-
+            //Versão 1.1
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
