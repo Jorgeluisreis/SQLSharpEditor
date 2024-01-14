@@ -14,7 +14,7 @@ Idade: tipo int
 <p align="center">
   <img src="https://uploaddeimagens.com.br/images/004/711/804/original/imagem_2024-01-14_165704243.png?1705262229" alt="Estrutura do Banco de Dados">
 </p>
-A idéia é que futuramente ele possa ser adaptado para qualquer estrutura de banco de dados, seja ele com chave ou sem chave, lendo diretamente os dados d0 banco de dados (Colunas e afins) e se adaptando ao mesmo.
+A idéia é que futuramente ele possa ser adaptado para qualquer estrutura de banco de dados, seja ele com chave ou sem chave, lendo diretamente os dados do banco de dados (colunas e afins), se adaptando ao mesmo.
 
 
 ## Introdução
@@ -44,7 +44,7 @@ A tela do editor você terá um campo de Query parecido com do SQL Server, onde 
 Caso você faça alguma alteração em alguma célula (precisa sair do modo edição da célula para salvar a edição), o botão de salvar (ícone de disquete preto) irá aparecer no canto superior direito da tela para estar atribuindo ao banco de dados.
 
 ## Metas
-Como citado acima, a idéia é que com o tempo ele passe a ser usado em qualquer tipo de banco de dados SQL Server, não necessáriamente preso no modelo atual (Id, Nome e Idade), você está mais do que convidade para contrubuir com o projeto.
+Como citado acima, a idéia é que com o tempo ele passe a ser usado em qualquer tipo de banco de dados SQL Server, não necessáriamente preso no modelo atual (Id, Nome e Idade), você está mais do que convidado para contribuir com o projeto.
 
 
 
