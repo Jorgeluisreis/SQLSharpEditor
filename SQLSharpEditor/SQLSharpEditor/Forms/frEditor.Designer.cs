@@ -117,7 +117,7 @@
             menuStripTools.Items.AddRange(new ToolStripItem[] { msArchiver, msAbout });
             menuStripTools.Location = new Point(0, 1);
             menuStripTools.Name = "menuStripTools";
-            menuStripTools.Size = new Size(64, 24);
+            menuStripTools.Size = new Size(184, 24);
             menuStripTools.TabIndex = 4;
             // 
             // msArchiver
@@ -126,6 +126,7 @@
             msArchiver.Name = "msArchiver";
             msArchiver.Size = new Size(28, 20);
             msArchiver.ToolTipText = "Arquivo";
+            msArchiver.Visible = false;
             // 
             // msAbout
             // 
@@ -141,7 +142,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { msRun, msSave });
             menuStrip1.Location = new Point(0, 22);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(184, 24);
+            menuStrip1.Size = new Size(64, 24);
             menuStrip1.TabIndex = 5;
             menuStrip1.Text = "menuStrip1";
             // 

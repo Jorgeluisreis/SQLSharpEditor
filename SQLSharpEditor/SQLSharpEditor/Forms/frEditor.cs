@@ -286,16 +286,27 @@ namespace SQLSharpEditor
         {
             return new List<string>
             {
-        "SELECT", "FROM", "WHERE", "UPDATE", "INSERT", "DELETE", "INTO", "VALUES", "SET",
-        "INNER", "OUTER", "LEFT", "RIGHT", "JOIN", "ON", "GROUP BY", "ORDER BY",
-        "ASC", "DESC", "DISTINCT", "AND", "OR", "NOT", "IN", "LIKE", "BETWEEN",
-        "AS", "CASE", "WHEN", "THEN", "ELSE", "END", "COUNT", "SUM", "AVG", "MAX", "MIN",
-        "IS", "NULL", "IF", "ELSE", "BEGIN", "DECLARE", "EXEC", "EXECUTE", "CREATE",
-        "TABLE", "ALTER", "DROP", "INDEX", "PRIMARY KEY", "FOREIGN KEY", "REFERENCES",
-        "UNION", "ALL", "HAVING", "TOP", "LIMIT", "OFFSET", "FETCH", "NEXT", "ONLY",
-        "ROWNUM", "ROW_NUMBER", "OVER", "PARTITION", "BY", "INNER JOIN", "OUTER JOIN",
-        "LEFT JOIN", "RIGHT JOIN", "FULL JOIN", "CROSS JOIN", "USING", "NATURAL",
-        "DATABASE", "USE", "SHOW", "DESCRIBE", "DESC", "EXISTS", "CAST", "CONVERT", "ORDER BY"
+        // Palavras-chave SQL
+            "SELECT", "INSERT", "UPDATE", "DELETE", "FROM", "WHERE", "JOIN", "INNER",
+            "LEFT", "RIGHT", "OUTER", "GROUP BY", "ORDER BY", "HAVING", "TOP", "AND",
+            "OR", "NOT", "IN", "LIKE", "BETWEEN",
+
+            // Palavras reservadas de Identificação
+            "CREATE", "ALTER", "DROP", "INDEX", "TABLE", "VIEW", "PROCEDURE",
+            "FUNCTION", "TRIGGER", "DATABASE",
+
+            // Controle de Fluxo
+            "IF", "ELSE", "BEGIN", "END", "RETURN", "GOTO", "BREAK", "CONTINUE", "WHILE",
+
+            // Transações
+            "COMMIT", "ROLLBACK", "BEGIN TRANSACTION", "SET TRANSACTION",
+
+            // Gerenciamento de Usuários e Permissões
+            "GRANT", "REVOKE", "DENY", "CREATE LOGIN", "CREATE USER", "ALTER LOGIN",
+            "ALTER USER", "DROP LOGIN", "DROP USER",
+
+            // Funções Agregadas
+            "COUNT", "SUM", "AVG", "MIN", "MAX"
             };
         }
 
@@ -327,7 +338,7 @@ namespace SQLSharpEditor
                     try
                     {
 
-                        
+
                         conexaoSql.injectSQL(query, localBase, nomeBase, connectionString);
                     }
                     catch (SqlException ex)
