@@ -1,5 +1,6 @@
-
-# SQLSharpEditor - Editor SQL feito em C#
+<p align="center">
+  <img src="https://i.imgur.com/5i0Vk9s.png" alt="Logo do Projeto">
+</p>
 
 O propósito deste projeto é basicamente usar mecânicas de interação com o Banco de dados, mais precisamente o SQL Server. Contribuições serão bem vindas para a melhoria do projeto e seus afins.
 
@@ -12,7 +13,7 @@ Id: Chave primária e do tipo Int
 Nome: tipo text
 Idade: tipo int
 <p align="center">
-  <img src="https://uploaddeimagens.com.br/images/004/711/804/original/imagem_2024-01-14_165704243.png?1705262229" alt="Estrutura do Banco de Dados">
+  <img src="https://i.imgur.com/kruHMfA.png" alt="Estrutura do Banco de Dados">
 </p>
 A idéia é que futuramente ele possa ser adaptado para qualquer estrutura de banco de dados, seja ele com chave ou sem chave, lendo diretamente os dados do banco de dados (colunas e afins), se adaptando ao mesmo.
 
@@ -31,7 +32,7 @@ Após o login sucedido, ele irá abrir uma caixa de interação para você selec
 
 Ambos devem estar na estrutura abaixo:
 
-![Estrutura do INI](https://uploaddeimagens.com.br/images/004/711/795/original/imagem_2024-01-14_164531127.png?1705261540)
+![Estrutura do INI](https://i.imgur.com/AdHFqQh.png)
 
 Caso seja seja selecionado um INI sem essa estrutura ou um arquivo que não será .INI, dará erro.
 
@@ -39,7 +40,7 @@ Caso seja seja selecionado um INI sem essa estrutura ou um arquivo que não ser�
 
 A tela do editor você terá um campo de Query parecido com do SQL Server, onde você será a marcação de palavras reservadas do mesmo e terá um botão no canto superior direito indicando que já pode executar o query.
 <p align="center">
-  <img src="https://uploaddeimagens.com.br/images/004/711/798/original/imagem_2024-01-14_165339884.png?1705262025" alt="Tela do Editor">
+  <img src="https://i.imgur.com/ceOWPPV_d.webp?maxwidth=760&fidelity=grand" alt="Tela do Editor">
 </p>
 Caso você faça alguma alteração em alguma célula (precisa sair do modo edição da célula para salvar a edição), o botão de salvar (ícone de disquete preto) irá aparecer no canto superior direito da tela para estar atribuindo ao banco de dados.
 
